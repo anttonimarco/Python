@@ -3,6 +3,7 @@
 """
 import time
 
+
 print('\n')
 print('\033[1;32m=\033[m' * 50)
 print('\033[1;36m<< Calculadora Soma >>\033[m')
