@@ -9,7 +9,6 @@ on = True
 
 while on == True:
     print('\b')
-
     print('=' * 40)
     print('            >>> Sorteio <<<')
     print('=' * 40)
@@ -34,10 +33,8 @@ while on == True:
             print('Parabéns {}! Uruulll!\n'.format(name_1.capitalize()))
             time.sleep(1)
             sorteio_dedois = 0
-            
             choiceExit = input('Aperte enter para continuar...')
             
-
         elif sorteio_dedois == 2:
             time.sleep(1)
             print('\nO Aluno(a) sorteado foi: {}\n'.format(name_2.capitalize()))
@@ -47,8 +44,6 @@ while on == True:
             sorteio_dedois = 0
             choiceExit = input('Aperte enter para continuar...')
             
-
-
     elif choice == 3:
         print('\b')
         name_3 = input('Primeiro nome: ')
@@ -64,7 +59,6 @@ while on == True:
             sorteio_detres = 0
             choiceExit = input('Digite qualquer tecla para continuar...')
             
-
         elif sorteio_detres == 2:
             time.sleep(1)
             print('\nO Aluno(a) sorteado foi: {}\n'.format(name_4.capitalize()))
@@ -74,7 +68,6 @@ while on == True:
             sorteio_detres = 0
             choiceExit = input('Digite qualquer tecla para retornar...')
             
-
         elif sorteio_detres == 3:
             time.sleep(1)
             print('\nO Aluno(a) sorteado foi: {}\n'.format(name_5.capitalize()))
@@ -83,7 +76,6 @@ while on == True:
             time.sleep(1)
             sorteio_detres = 0
             choiceExit = input('Digite qualquer tecla para retornar...')
-            
 
     elif choice == 4:
         print('\b')
@@ -92,6 +84,7 @@ while on == True:
         name_8 = input('Terceiro nome: ')
         name_9 = input('Quarto   nome: ')
         sorteio_dequatro = random.randint(1,5)
+       
         if sorteio_dequatro == 1:
             time.sleep(1)
             print('\nO Aluno(a) sorteado foi: {}\n'.format(name_6.capitalize()))
@@ -136,6 +129,7 @@ while on == True:
         name_13 = input('Quarto   nome: ')
         name_14 = input('Quinto   nome: ')
         sorteio_decinco = random.randint(1,6)
+      
         if sorteio_decinco == 1:
             time.sleep(1)
             print('\nO Aluno(a) sorteado foi: {}\n'.format(name_10.capitalize()))
